@@ -47,6 +47,19 @@ body {
     box-shadow: 2px 2px black;
 }
 
+span {
+    font-size: 30px;
+    font-family: cursive;
+    transition: transform;
+}
+
+span:hover {
+    font-size: 50px;
+    font-family: fantasy;
+    transform: rotate(30deg);
+    padding: 2em;
+}
+
 
 /*First card*/
 
