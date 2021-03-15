@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 :root {
-    --violete: hsl(263, 55%, 70%);
+    --violete: hsl(263, 55%, 55%);
     --border: hsl(263, 55%, 70%);
     --grayish-blue: hsl(217, 19%, 35%);
     --blackish-blue: hsl(219, 29%, 14%);
@@ -20,7 +20,10 @@ body {
     max-width: 375;
     font-family: 'Barlow', sans-serif;
     font-size: 13px;
-    background-color: hsl(240, 4%, 69%);
+    background-color: aqua;
+    background-image: url('../images/pexels-photo-bible-open.jpeg');
+    background-size: cover;
+    opacity: 0.98;
 }
 
 .attribution {
@@ -51,13 +54,18 @@ span {
     font-size: 30px;
     font-family: cursive;
     transition: transform;
+    padding: 10px;
 }
 
 span:hover {
     font-size: 50px;
     font-family: fantasy;
     transform: rotate(30deg);
-    padding: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    cursor: pointer;
 }
 
 
@@ -118,7 +126,7 @@ img:hover {
     color: var(--white);
 }
 
-.opacity-withe {
+.opacity-white {
     color: var(--light-gray);
 }
 
